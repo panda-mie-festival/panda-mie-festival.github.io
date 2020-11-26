@@ -1,0 +1,118 @@
+html, body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  min-height: 100%;
+  font-size: 1.1em;
+}
+
+body {
+  background: rgb(253,92,109);
+  background-image: url("images/bg2.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 40% auto;
+}
+
+main {
+  max-width: 1024px;
+  margin: auto;
+  padding: 0 20px 40px 20px;
+}
+
+header {
+  width: 100%;
+  height: 0;
+  padding-bottom: 33%;
+  background-image: url("images/bg1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+}
+
+.youtube {
+  width: 100%;
+  height: 0;
+  padding-bottom: 59%;
+  position: relative;
+}
+
+.youtube .iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 40px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.youtube .iframe iframe {
+  border-radius: 25px;
+}
+
+.timetable h1 {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-weight: 500;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.timetable h1 span {
+  color: white;
+  font-weight: 300;
+}
+
+.timetable table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  background: rgb(253,92,109);
+  border-radius: 10px;
+}
+
+.timetable table tr td {
+  background: rgba(255,255,255,0.5);
+}
+
+.timetable table tr:nth-child(odd) td {
+  background: rgba(255,255,255,0.8);
+}
+
+.timetable table tr td {
+  padding: 15px 5px;
+}
+
+.timetable table tr td:nth-child(1) {
+  padding-left: 20px;
+  width: 140px;
+}
+
+.timetable table tr td:nth-child(2) {
+  font-weight: 500;
+}
+
+.timetable table tr td:nth-child(3) {
+  font-style: italic;
+  padding-right: 20px;
+}
+
+.timetable table tr:first-child td:first-child {
+  border-top-left-radius: 10px;
+}
+
+.timetable table tr:first-child td:last-child {
+  border-top-right-radius: 10px;
+}
+
+.timetable table tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+.timetable table tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
