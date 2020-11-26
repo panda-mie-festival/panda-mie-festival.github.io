@@ -38,6 +38,7 @@ header {
 }
 
 .timetable h1 {
+  font-size: 1.6em;
   display: block;
   width: 100%;
   text-align: center;
