@@ -37,6 +37,15 @@ header {
   box-sizing: border-box;
 }
 
+.chat {
+  box-sizing: border-box;
+  margin-top: 20px;
+  background: white;
+  padding: 10px;
+  width: 100%;
+  height: 600px;
+}
+
 .timetable h1 {
   font-size: 1.6em;
   display: block;
