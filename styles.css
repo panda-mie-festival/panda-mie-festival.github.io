@@ -71,7 +71,7 @@ header {
 .timetable table {
   border-collapse: collapse;
   width: 100%;
-  max-width: 600px;
+  max-width: 650px;
   margin: auto;
   background: rgb(253,92,109);
   border-radius: 10px;
@@ -103,6 +103,7 @@ header {
   font-style: italic;
   padding-right: 10px;
   font-size: 0.8em;
+  white-space: nowrap;
 }
 
 .timetable table tr:first-child td:first-child {
