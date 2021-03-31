@@ -7,11 +7,11 @@ html, body {
 }
 
 body {
-  background: rgb(144,217,157);
-  background-image: url("images/bg2_3.png");
+  background: rgb(253,92,109);
+  background-image: url("images/bg2.jpg");
   background-repeat: no-repeat;
-  background-position: bottom right;
-  background-size: 20% auto;
+  background-position: bottom left;
+  background-size: 40% auto;
 }
 
 main {
@@ -23,33 +23,11 @@ main {
 header {
   width: 100%;
   height: 0;
-  padding-bottom: 40%;
-  position: relative;
-  overflow: hidden;
-}
-
-header .text {
-  position: absolute;
-  width: 60%;
-  height: 600px;
-  right: 0;
-  bottom: 0;
-  background-image: url("images/bg2_1.png");
+  padding-bottom: 33%;
+  background-image: url("images/bg1.jpg");
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
   background-size: 100% auto;
-}
-
-header .logo {
-  position: absolute;
-  width: 40%;
-  height: 600px;
-  left: 0;
-  bottom: 0;
-  background-image: url("images/bg2_2.png");
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: 170% auto;
 }
 
 .youtube {
@@ -74,18 +52,20 @@ header .logo {
   }
 }
 
-.timetable h1, .previous-festivals h1 {
-  text-align: center;
+.timetable h1 {
   font-size: 1.6em;
-  font-weight: 500;
+  display: block;
+  width: 100%;
+  text-align: center;
   color: black;
+  font-weight: 500;
+  padding: 20px 0;
+  margin: 0;
 }
 
-.timetable h1 span, .previous-festivals h1 span {
-  display: inline-block;
-  background: rgba(255,255,255,0.5);
-  padding: 10px 40px;
-  border-radius: 25px;
+.timetable h1 span {
+  color: white;
+  font-weight: 300;
 }
 
 .timetable table {
@@ -93,7 +73,7 @@ header .logo {
   width: 100%;
   max-width: 650px;
   margin: auto;
-  background: rgb(144,217,157);
+  background: rgb(253,92,109);
   border-radius: 10px;
 }
 
@@ -140,24 +120,4 @@ header .logo {
 
 .timetable table tr:last-child td:last-child {
   border-bottom-right-radius: 10px;
-}
-
-.previous-festivals ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.previous-festivals ul li {
-  text-align: center;
-}
-
-.previous-festivals ul a {
-  color: black;
-  font-weight: 500;
-  text-decoration: none;
-}
-
-.previous-festivals ul a:hover {
-  text-decoration: underline;
 }
