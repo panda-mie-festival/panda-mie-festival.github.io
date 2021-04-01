@@ -99,10 +99,6 @@ header .logo {
   border-radius: 10px;
 }
 
-.timetable li {
-  cursor: pointer;
-}
-
 .timetable ul li:nth-child(even) {
   background: rgba(255,255,255,0.5);
 }
@@ -119,6 +115,10 @@ header .logo {
 .timetable ul li:last-child {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+
+.timetable li.clickable {
+  cursor: pointer;
 }
 
 .timetable ul li .row {
@@ -148,6 +148,9 @@ header .logo {
   font-style: italic;
   font-size: 0.8em;
   white-space: nowrap;
+}
+
+.timetable ul li.clickable .row .place {
   background-image: url("images/arrow.png");
   background-repeat: no-repeat;
   background-position: right center;
