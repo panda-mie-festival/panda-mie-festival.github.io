@@ -73,13 +73,6 @@ header .logo {
   background: white;
   padding: 10px;
   width: 100%;
-  height: 700px;
-}
-
-@media only screen and (max-width: 600px){
-  .chat {
-    display: none;
-  }
 }
 
 .timetable h1, .previous-festivals h1 {
